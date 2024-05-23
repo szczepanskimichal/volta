@@ -10,8 +10,8 @@ import {
 
 const Header = () => {
   return (
-    <header className="bg-blue-800 text-white p-4">
-      <h1 className="text-3xl">Usługi Elektryczne w Krośnie</h1>
+    <header className="bg-blue-800  text-white p-4 fixed w-full top-0 z-50">
+      <h1 className="text-3xl text-center">Usługi Elektryczne w Krośnie</h1>
       <nav className="mt-2">
         <ul className="flex justify-around">
           <li>
@@ -31,8 +31,8 @@ const Header = () => {
             </a>
           </li>
           <li>
-            <a href="#pricing" className="flex items-center">
-              <FaDollarSign /> Cennik
+            <a href="#Gallery" className="flex items-center">
+              <FaDollarSign /> Galeria
             </a>
           </li>
           <li>

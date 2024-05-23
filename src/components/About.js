@@ -2,8 +2,8 @@ import React from "react";
 
 const About = () => {
   return (
-    <section id="about" className="p-4">
-      <h2 className="text-3xl mb-4">O nas</h2>
+    <section id="about" className="pt-15 p-4">
+      <h2 className="text-3xl mb-4">O mnie</h2>
       <p>
         Volta Piotr Szczepański Instalacje elektryczne Krościenko Wyżne Volta
         Piotr Szczepański Instalacje elektryczne. Działam w branży elektrycznej
