@@ -1,6 +1,6 @@
 import React from "react";
 
-const Systems = () => {
+const InstalacjeElektryczne = () => {
   return (
     <div>
       <h1>Instalacje elektryczne</h1>
@@ -16,4 +16,4 @@ const Systems = () => {
   );
 };
 
-export default Systems;
+export default InstalacjeElektryczne;

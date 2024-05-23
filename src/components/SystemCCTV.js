@@ -1,6 +1,6 @@
 import React from "react";
 
-const Po = () => {
+const SystemCCTV = () => {
   return (
     <div>
       <h1>Instalacje elektryczne</h1>
@@ -16,4 +16,4 @@ const Po = () => {
   );
 };
 
-export default Po;
+export default SystemCCTV;

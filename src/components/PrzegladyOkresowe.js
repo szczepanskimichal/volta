@@ -1,9 +1,9 @@
 import React from "react";
 
-const Ie = () => {
+const PrzegladyOkresowe = () => {
   return (
     <div>
-      <h1>Instalacje elektryczne</h1>
+      <h1>Przeglady Okresowe</h1>
       <p>
         Instalacje elektryczne to jedne z najważniejszych elementów każdego
         budynku. Dzięki nim możliwe jest korzystanie z prądu elektrycznego w
@@ -16,4 +16,4 @@ const Ie = () => {
   );
 };
 
-export default Ie;
+export default PrzegladyOkresowe;

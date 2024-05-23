@@ -3,7 +3,7 @@ import React from "react";
 const Uziomy = () => {
   return (
     <div>
-      <h1>Instalacje elektryczne</h1>
+      <h1>Uziomy</h1>
       <p>
         Instalacje elektryczne to jedne z najważniejszych elementów każdego
         budynku. Dzięki nim możliwe jest korzystanie z prądu elektrycznego w

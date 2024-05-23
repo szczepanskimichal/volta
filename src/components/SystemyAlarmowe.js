@@ -1,9 +1,9 @@
 import React from "react";
 
-const Uu = () => {
+const SystemyAlarmowe = () => {
   return (
     <div>
-      <h1>Instalacje elektryczne</h1>
+      <h1>Systemy alarmowe</h1>
       <p>
         Instalacje elektryczne to jedne z najważniejszych elementów każdego
         budynku. Dzięki nim możliwe jest korzystanie z prądu elektrycznego w
@@ -16,4 +16,4 @@ const Uu = () => {
   );
 };
 
-export default Uu;
+export default SystemyAlarmowe;
