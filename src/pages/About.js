@@ -1,9 +1,10 @@
-import { Link, Outlet } from "react-router-dom";
+import { Outlet } from "react-router-dom";
 
 export const About = () => {
   return (
     <main>
-      <h1>About Us</h1>
+      {/* <h1>O Volta</h1> */}
+      <br />
       <p>
         Volta Piotr Szczepański Instalacje elektryczne Krościenko Wyżne Volta
         Piotr Szczepański Instalacje elektryczne.
@@ -26,7 +27,9 @@ export const About = () => {
         uprawnień jestem w stanie wykonać wszelkie zlecone prace z zakresu
         instalacji elektrycznych.
       </p>
-      <ul>
+      <br />
+      <img src="/images/szafa2.jpg" alt="szafa" />
+      {/* <ul>
         <li>
           <Link to="mission">Cos napisac jeszcze o fiemie</Link>
         </li>
@@ -37,7 +40,7 @@ export const About = () => {
           <Link to="reviews">opinie o firmie</Link>
         </li>
       </ul>
-      <Outlet />
+      <Outlet /> */}
     </main>
   );
 };
