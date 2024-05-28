@@ -1,5 +1,10 @@
 import styled from "styled-components";
 
+export const ProductImage = styled.img`
+  max-width: 400;
+  height: auto;
+`;
+
 export const Container = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fit, 400px);

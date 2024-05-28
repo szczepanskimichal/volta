@@ -5,17 +5,26 @@ export const About = () => {
     <main>
       <h1>About Us</h1>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus
-        laborum amet ab cumque sit nihil dolore modi error repudiandae
-        perspiciatis atque voluptas corrupti, doloribus ex maiores quam magni
-        mollitia illum dolor quis alias in sequi quod. Sunt ex numquam hic
-        asperiores facere natus sapiente cum neque laudantium quam, expedita
-        voluptates atque quia aspernatur saepe illo, rem quasi praesentium
-        aliquid sed inventore obcaecati veniam? Nisi magnam vero, dolore
-        praesentium totam ducimus similique asperiores culpa, eius amet
-        repudiandae quam ut. Architecto commodi, tempore ut nostrum voluptas
-        dolorum illum voluptatum dolores! Quas perferendis quis alias excepturi
-        eaque voluptatibus eveniet error, nulla rem iusto?
+        Volta Piotr Szczepański Instalacje elektryczne Krościenko Wyżne Volta
+        Piotr Szczepański Instalacje elektryczne.
+        <br />
+        <br /> Działam w branży elektrycznej od 2020 roku. Swoje usługi świadczę
+        w województwie podkarpackim. <br />
+        <br />
+        Moją specjalnością są instalacje elektryczne, systemy alarmowe oraz
+        monitoring. <br />
+        <br />
+        Wykonuję również badania okresowe i odbiorcze instalacji elektrycznych.
+        Do każdego inwestora podchodzę w sposób indywidualny zapewniając
+        doradztwo, pełną elastyczność oraz gwarancję terminowego wykonania
+        zleconych prac. <br />
+        <br />
+        Świadczę również usługi serwisowe. Dbam o najwyższą jakość wykonywanych
+        prac. Oferuję konkurencyjne ceny.
+        <br />
+        <br /> Dzięki zdobytemu doświadczeniu oraz posiadaniu niezbędnych
+        uprawnień jestem w stanie wykonać wszelkie zlecone prace z zakresu
+        instalacji elektrycznych.
       </p>
       <ul>
         <li>
