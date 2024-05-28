@@ -1,8 +1,9 @@
 import { Route, Routes } from "react-router-dom";
 import { About } from "../pages/About";
 import { Home } from "../pages/Home";
-import { Offer } from "../pages/Offer";
-import { OfferDetails } from "../pages/OfferDetails";
+
+import { ProductDetails } from "../pages/ProductDetails";
+import { Products } from "../pages/Products";
 import { SharedLayout } from "./SharedLayout";
 
 export const App = () => {
@@ -11,8 +12,8 @@ export const App = () => {
       <Route path="/" element={<SharedLayout />}>
         <Route index element={<Home />} />
         <Route path="about" element={<About />} />
-        <Route path="offer" element={<Offer />} />
-        <Route path="offer/:id" element={<OfferDetails />} />
+        <Route path="offer" element={<Products />} />
+        <Route path="offer/:id" element={<ProductDetails />} />
       </Route>
     </Routes>
   );
