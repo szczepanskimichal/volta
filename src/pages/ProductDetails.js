@@ -11,7 +11,7 @@ export const ProductDetails = () => {
   return (
     <main>
       <BackLink to={backLinkHref}>Back to products</BackLink>
-      <img src="https://via.placeholder.com/960x240" alt="" />
+      <img src={product.img} alt={product.name} />
       <div>
         <h2>
           Product - {product.name} - {id}
