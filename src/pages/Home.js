@@ -1,4 +1,5 @@
 import React from "react";
+import smartHomeImage from "../images/SmartHome.jpg";
 import {
   MainContainer,
   Header,
@@ -8,11 +9,12 @@ import {
   ListItem,
   MediaQuery,
 } from "../components/Home.styled";
+
 export const Home = () => {
   return (
     <main>
       <h1>Witaj!</h1>
-      <img src="https://via.placeholder.com/960x240" alt="" />
+      <img src={smartHomeImage} alt="SmartHome" />
       <p>
         Energia elektryczna to kluczowe medium, bez którego funkcjonowanie we
         współczesnym świecie byłoby praktycznie niemożliwe. Prąd zasila linie
