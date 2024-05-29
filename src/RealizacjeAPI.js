@@ -1,10 +1,10 @@
-const products = [
+const realizacje = [
   {
     id: "1",
     name: "Instalacje elektryczne",
     description:
       "Oferuję kompleksowe wykonanie instalacji elektrycznej zgodnie z projektem przekazanym przez inwestora. Przed realizacją zlecenia sugeruję sprawdzone rozwiązania, wskazuję, gdzie można dodać coś funkcjonalnego, a z czego warto zrezygnować. Wykonuję instalacje elektryczne, antenowe, internetowe, alarmowe oraz odgromowe. Stawiam na estetykę i solidność. Całość prac kończy się protokołem z pomiarów elektrycznych, który pozwala na eksploatację instalacji. Do każdej wykonanej przeze mnie instalacji inwestor otrzymuje pendrivea z całą dokumentacją",
-    img: "../imges/szafa.jpg",
+    img: "/images/szafa.jpg",
   },
   {
     id: "2",
@@ -64,10 +64,10 @@ const products = [
   },
 ];
 
-export const getProducts = () => {
-  return products;
+export const getRealizacje = () => {
+  return realizacje;
 };
 
-export const getProductById = (productId) => {
-  return products.find((product) => product.id === productId);
+export const getRealizacjeById = (realizacjeId) => {
+  return realizacje.find((realizacja) => realizacja.id === realizacjeId);
 };

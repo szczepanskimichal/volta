@@ -14,7 +14,7 @@ export const Home = () => {
   return (
     <main>
       <h1>Witaj!</h1>
-      <img src={smartHomeImage} alt="SmartHome" />
+      <img src={smartHomeImage} alt="SmartHome" width="960" />
       <p>
         Energia elektryczna to kluczowe medium, bez którego funkcjonowanie we
         współczesnym świecie byłoby praktycznie niemożliwe. Prąd zasila linie

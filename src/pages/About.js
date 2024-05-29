@@ -1,5 +1,5 @@
-import { Outlet } from "react-router-dom";
-
+// import { Outlet } from "react-router-dom";
+import ladowarka2 from "../images/ladowarka2.jpg";
 export const About = () => {
   return (
     <main>
@@ -28,7 +28,7 @@ export const About = () => {
         instalacji elektrycznych.
       </p>
       <br />
-      <img src="/images/szafa2.jpg" alt="szafa" />
+      <img src={ladowarka2} alt="szafa" />
       {/* <ul>
         <li>
           <Link to="mission">Cos napisac jeszcze o fiemie</Link>

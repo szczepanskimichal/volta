@@ -1,8 +1,9 @@
 import { useParams, useLocation } from "react-router-dom";
 import { BackLink } from "../components/BackLink";
 import { getProductById } from "../fakeAPI";
+// import { style } from "../components/RealizacjeDetails.styled";
 
-export const ProductDetails = () => {
+export const RealizacjeDetails = () => {
   const { id } = useParams();
   const product = getProductById(id);
   const location = useLocation();
@@ -13,7 +14,9 @@ export const ProductDetails = () => {
       <BackLink to={backLinkHref}>Back to products</BackLink>
       <img src={product.img} alt={product.name} />
       <div>
-        <h2>{product.name}</h2>
+        <h2>
+          Product - {product.name} - {id}
+        </h2>
         <p>{product.description}</p>
       </div>
     </main>

@@ -5,7 +5,7 @@ import { getProducts } from "../fakeAPI";
 
 export const Products = () => {
   const products = getProducts();
-  const [searchParams, setSearchParams] = useSearchParams();
+  const [searchParams] = useSearchParams();
   const productName = searchParams.get("name") ?? "";
 
   const visibleProducts = products.filter((product) =>
